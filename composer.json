@@ -1,0 +1,24 @@
+{
+    "name": "mionext/jesponse",
+    "description": "A JSON helper for symfony/http-foundation based web application",
+    "require-dev": {
+        "symfony/http-foundation": "^4.0",
+        "symfony/var-dumper": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MioNext\\Jesponse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mionext",
+            "email": "dev@m-io.cn"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1"
+    }
+}
